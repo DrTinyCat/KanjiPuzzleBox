@@ -1,18 +1,18 @@
 # KanjiPuzzleBox
 A CSV of kanji is converted into an interactive Web puzzle
 
--depends on Python modules 
+- depends on Python modules 
 > pathlib, 
 > io, 
 > pandas, 
 > numpy, 
 
--depends on '<same directory>/Target/squaregameheader.csv'
+- depends on '<same directory>/Target/squaregameheader.csv'
     
--receives csv in the format "Kanji", "Pronunciation", "Meaning", "Place1",..."Place9"
--returns html just showing Kanji and their puzzlebox numbers
+- receives csv in the format "Kanji", "Pronunciation", "Meaning", "Place1",..."Place9"
+- returns html just showing Kanji and their puzzlebox numbers
     
--still needed: kanji must be formatted to 13 (wide) by 14 (high) grid. 
+- still needed: kanji must be formatted to 13 (wide) by 14 (high) grid. 
 
 
 ## To properly install: 
