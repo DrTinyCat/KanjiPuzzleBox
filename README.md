@@ -1,10 +1,11 @@
 # KanjiPuzzleBox
 A CSV of kanji is converted into an interactive Web puzzle
 -depends on Python modules 
-> pathlib
-> io
-> pandas
-> numpy
+> pathlib, 
+> io, 
+> pandas, 
+> numpy, 
+
 -depends on '<same directory>/Target/squaregameheader.csv'
     
 -receives csv in the format "Kanji", "Pronunciation", "Meaning", "Place1",..."Place9"
